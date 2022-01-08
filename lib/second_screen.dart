@@ -27,7 +27,7 @@ class _SecondScreenState extends State<SecondScreen> {
             alignment: Alignment.center,
             width: double.infinity,
             child: Text(
-              'The amount entered is ${billAmount.toStringAsFixed(2)}',
+              'The amount entered is \$${billAmount.toStringAsFixed(2)}',
               style: TextStyle(color: Colors.black),
             ),
           ),
@@ -58,7 +58,7 @@ class _SecondScreenState extends State<SecondScreen> {
                           100;
                       return Dialog(
                         child: Container(
-                          height: 230,
+                          height: 300,
                           child: Column(
                             children: [
                               Text(
